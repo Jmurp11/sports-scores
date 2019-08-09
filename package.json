@@ -1,0 +1,23 @@
+{
+  "name": "sports-scores",
+  "version": "1.0.0",
+  "description": "Live Sports scores using Angular, GraphQL, NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmurp11/sports-scores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmurp11/sports-scores/issues"
+  },
+  "homepage": "https://github.com/Jmurp11/sports-scores#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
