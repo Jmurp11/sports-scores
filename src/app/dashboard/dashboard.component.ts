@@ -85,7 +85,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     } else if (status === 'Postponed' || status.includes('Suspended')) {
       result = 'PPD';
     } else {
-      result = `${inningStatus.substring(0, 3)} ${inning}}`;
+      result = `${inningStatus.substring(0, 3)} ${inning}`;
     }
 
     return result;
