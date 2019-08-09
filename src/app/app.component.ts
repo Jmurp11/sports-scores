@@ -8,7 +8,7 @@ import { DateService } from './datepicker/date.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'client';
+  title = 'MLB-Score';
 
   constructor(
     private data: DataService,
