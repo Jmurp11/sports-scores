@@ -13,7 +13,7 @@ export class DataService {
   results: Observable<any>;
 
   constructor(private http: HttpClient) {
-    this.url = 'http://gd.mlb.com/components/game/mlb';
+    this.url = 'https://gd.mlb.com/components/game/mlb';
   }
 
   getGamesByDate(date: DateClass): any {
